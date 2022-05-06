@@ -6,7 +6,7 @@ import time
 
 website = 'https://free-faa-exam.kingschools.com/private-pilot'
 
-os.environ['PATH'] += ':/home/michaelc/AES/bk-val/selenium-practice/selenium-driver'
+os.environ['PATH'] += ':/home/michaelc/selenium-practice/selenium-driver'
 driver = webdriver.Chrome()
 
 driver.get(website)
